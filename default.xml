@@ -40,7 +40,7 @@
   <project path="packages/apps/DUI" name="abc-n_packages_apps_DUI" remote="abc" revision="n2" />
   <project path="packages/apps/PackageInstaller" name="abc-n_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" revision="n2" />
   <project path="packages/apps/PhoneCommon" name="abc-n_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="n2" />
-  <project path="packages/apps/PureSettings" name="abc-n_packages_apps_PureSettings" remote="abc" revision="n2" />
+  <project path="packages/apps/AbcSettings" name="abc-n_packages_apps_ABCsettings" remote="abc" revision="n2" />
   <project path="packages/apps/Settings" name="abc-n_packages_apps_Settings" groups="pdk-fs" remote="abc" revision="n2" />
   <project path="packages/inputmethods/LatinIME" name="abc-n_packages_inputmethods_LatinIME" groups="pdk-fs" remote="abc" revision="n2" />
   <project path="packages/providers/DownloadProvider" name="abc-n_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="n2" />
