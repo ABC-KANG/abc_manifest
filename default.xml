@@ -20,6 +20,7 @@
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="n2" />
   <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="abc" revision="n2" />
+  <project path="scripts/enjarify-prebuiltApkExtraction" name="enjarify-prebuiltApkExtraction" remote="abc" revision="n2" />
   <!-- PNmod Repo's -->
   <project path="build" name="abc-n_build" groups="pdk" remote="abc" revision="n2" >
     <copyfile src="core/root.mk" dest="Makefile" />
