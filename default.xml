@@ -66,7 +66,6 @@
   <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" revision="o" />
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o" />
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o" />
-  <project path="system/netd" name="abc_system_netd" groups="pdk" remote="abc" revision="o" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o" />
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="o" />
 
@@ -516,6 +515,7 @@
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
