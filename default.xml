@@ -72,7 +72,7 @@
 
   <!-- Angler trees -->
   <project path="device/huawei/angler" name="abc_device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="abc" revision="o" />
-  <project path="kernel/huawei/angler" name="abc_kernel_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="abc" revision="o" />
+  <project path="kernel/huawei/angler" name="abc_kernel_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="abc" revision="o_upstream" />
   <project path="vendor/huawei" name="abc_vendor_huawei" remote="abc" revision="o" />
 
   <!-- AOSP trees -->
