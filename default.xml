@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
            sync-c="true" />
-  <default revision="refs/tags/android-8.0.0_r4"
+  <default revision="refs/tags/android-8.0.0_r11"
            remote="aosp"
            sync-j="4" />
   <remote  name="github"
@@ -36,7 +36,7 @@
   <project path="manifest" name="abc_manifest" remote="abc" revision="o" />
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o" />
   <!-- <project path="external/busybox" name="abc_external_busybox" remote="abc" revision="o" />-->
-  <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o" />
+  <!-- <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o" />-->
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="o" />
@@ -48,8 +48,8 @@
   <project path="packages/apps/CellBroadcastReceiver" name="abc_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="abc" revision="o" />
   <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="o" />
   <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="o" />
-  <project path="packages/apps/DSPlibs" name="abc_packages_apps_DSPlibs" remote="abc" revision="o" />
-  <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o" />
+  <!-- <project path="packages/apps/DSPlibs" name="abc_packages_apps_DSPlibs" remote="abc" revision="o" />
+  <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o" />-->
   <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="o" />
   <project path="packages/apps/PackageInstaller" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" revision="o" />
   <project path="packages/apps/PhoneCommon" name="abc_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
