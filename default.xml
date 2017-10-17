@@ -37,6 +37,7 @@
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o" />
   <!-- <project path="external/busybox" name="abc_external_busybox" remote="abc" revision="o" />-->
   <!-- <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o" />-->
+  <project path="external/wpa_supplicant_8" name="abc_external_wpa_supplicant_8" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="o" />
@@ -341,7 +342,6 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
   <project path="external/x264" name="platform/external/x264" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
