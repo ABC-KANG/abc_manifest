@@ -61,6 +61,7 @@
   <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o2" />
+  <project path="packages/apps/Gallery2" name="abc_packages_apps_Gallery2" remote="abc" revision="o2" />
   <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="o2" />
   <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/PackageInstaller" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" revision="o2" />
