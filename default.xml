@@ -58,6 +58,7 @@
   <project path="packages/apps/AbcOTA" name="abc_packages_apps_AbcOTA" remote="abc" revision="o2" />
   <project path="packages/apps/AbcSettings" name="abc_packages_apps_AbcSettings" remote="abc" revision="o2" />
   <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/apps/Camera2" name="abc_packages_apps_Camera2" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="o2" />
   <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o2" />
