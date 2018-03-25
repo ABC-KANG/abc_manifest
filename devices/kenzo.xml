@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="gitlab"
+           fetch="https://gitlab.com/" /> 
   <!-- Kenzo trees -->
   <project path="device/xiaomi/kenzo" name="abc_device_xiaomi_kenzo" groups="device,kenzo,broadcom_pdk,pdk" remote="abc" revision="o2" />
   <project path="kernel/xiaomi/kenzo" name="abc_kernel_xiaomi_kenzo" groups="device,kenzo,broadcom_pdk,pdk" remote="abc" revision="o2" />
@@ -9,5 +11,5 @@
   <project path="hardware/qcom/display" name="abc_hardware_qcom_display" remote="abc" revision="o2-8952" />
   <project path="hardware/qcom/media" name="abc_hardware_qcom_media" remote="abc" revision="o2-8952" />
   <!-- Toolchain -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-buildroot-linux-gnu-6.4" name="aarch64-buildroot-linux-gnu-6.4" remote="abc" revision="o2" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4" name="wight554/aarch64-linux-gnu" remote="gitlab" revision="o2" />
 </manifest>
