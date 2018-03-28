@@ -43,6 +43,8 @@
   <project path="external/ntfs-3g" name="abc_external_ntfs-3g" remote="abc" revision="o2" />
   <project path="external/selinux" name="abc_external_selinux" remote="abc" revision="o2" />
   <project path="external/tinycompress" name="abc_external_tinycompress" remote="abc" revision="o2" />
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="abc_device_qcom_sepolicy" groups="pdk" remote="abc" revision="o2" />
   <!-- Frameworks -->
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o2" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
