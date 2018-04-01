@@ -34,6 +34,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="manifest" name="abc_manifest" remote="abc" revision="o2" />
+  <project path="bionic" name="abc_bionic" groups="pdk" remote="abc" revision="o2" />
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o2" />
   <!-- External -->
   <project path="external/ant-wireless/antradio-library" name="abc_external_ant-wireless_antradio-library" remote="abc" revision="o2" />
@@ -81,6 +82,7 @@
   <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" revision="o2" />
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o2" />
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o2" />
+  <project path="system/nfc" name="abc_system_nfc" groups="pdk" remote="abc" revision="o2" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o2" />
   <project path="system/vold" name="abc_system_vold" remote="abc" revision="o2" />
   <!-- Vendor -->
@@ -88,12 +90,12 @@
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="o2" />
   <project path="vendor/qcom/opensource/dataservices" name="abc_vendor_qcom_opensource_dataservices" remote="abc" revision="o2" />
   <project path="vendor/qcom/opensource/fm" name="abc_vendor_qcom_opensource_fm" remote="abc" revision="o2" />
+  <project path="vendor/qcom/opensource/interfaces" name="abc_vendor_qcom_opensource_interfaces" remote="abc" revision="o2" />
 
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" clone-depth="1"/>
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -412,7 +414,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" />
@@ -532,7 +533,6 @@
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
@@ -569,7 +569,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Add all tracked Kenzo repos -->
+  <!-- Add Xiaomi stuff -->
+  <project path="vendor/xiaomi" name="abc_vendor_xiaomi" remote="abc" revision="o2" />
   <include name="devices/kenzo.xml" />
-
+  <include name="devices/chiron.xml" />
 </manifest>
