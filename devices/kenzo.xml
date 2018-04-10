@@ -10,5 +10,5 @@
   <project path="hardware/qcom/display-caf/msm8952" name="abc_hardware_qcom_display" remote="abc" revision="o2-8952" />
   <project path="hardware/qcom/media-caf/msm8952" name="abc_hardware_qcom_media" remote="abc" revision="o2-8952" />
   <!-- Toolchain -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4" name="wight554/aarch64-linux-gnu" remote="gitlab" revision="o2" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="wight554/aarch64-linux-gnu" remote="gitlab" revision="o2" />
 </manifest>
