@@ -79,7 +79,6 @@
   <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" revision="o2" />
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o2" />
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o2" />
-  <project path="system/nfc" name="abc_system_nfc" groups="pdk" remote="abc" revision="o2" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o2" />
   <project path="system/vold" name="abc_system_vold" remote="abc" revision="o2" />
   <!-- Vendor -->
@@ -88,7 +87,9 @@
   <project path="vendor/qcom/opensource/dataservices" name="abc_vendor_qcom_opensource_dataservices" remote="abc" revision="o2" />
   <project path="vendor/qcom/opensource/fm" name="abc_vendor_qcom_opensource_fm" remote="abc" revision="o2" />
   <project path="vendor/qcom/opensource/interfaces" name="abc_vendor_qcom_opensource_interfaces" remote="abc" revision="o2" />
-  <!-- NXP NFC -->
+  <!-- LineageOS NFC stuff -->
+  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="lineage-15.1" />
   <project path="vendor/nxp/interfaces/opensource/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="lineage-15.1" >
     <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
   </project>
@@ -437,7 +438,6 @@
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
