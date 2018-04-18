@@ -88,6 +88,7 @@
   <project path="vendor/qcom/opensource/fm" name="abc_vendor_qcom_opensource_fm" remote="abc" revision="o2" />
   <project path="vendor/qcom/opensource/interfaces" name="abc_vendor_qcom_opensource_interfaces" remote="abc" revision="o2" />
   <!-- Dirty Unicorns clang -->
+  <project path="external/clang" name="DirtyUnicorns/android_external_clang" remote="github" revision="o8x" />
   <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="github" revision="o8x" />
   <!-- LineageOS NFC stuff -->
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="lineage-15.1" />
@@ -140,7 +141,6 @@
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" />
