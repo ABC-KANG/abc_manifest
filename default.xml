@@ -47,6 +47,7 @@
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o2" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="o2" />
+  <project path="frameworks/opt/net/wifi" name="abc_frameworks_opt_net_wifi" groups="pdk" remote="abc" revision="o2" />
   <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" groups="pdk" remote="abc" revision="o2" />
   <!-- Hardware -->
   <project path="hardware/libhardware" name="abc_hardware_libhardware" remote="abc" revision="o2" />
@@ -87,6 +88,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="abc_vendor_qcom_opensource_dataservices" remote="abc" revision="o2" />
   <project path="vendor/qcom/opensource/fm" name="abc_vendor_qcom_opensource_fm" remote="abc" revision="o2" />
   <project path="vendor/qcom/opensource/interfaces" name="abc_vendor_qcom_opensource_interfaces" remote="abc" revision="o2" />
+  <project path="vendor/qcom/opensource/softap" name="abc_vendor_qcom_opensource_softap" remote="abc" revision="o2" />
   <!-- Dirty Unicorns clang -->
   <project path="external/clang" name="DirtyUnicorns/android_external_clang" remote="github" revision="o8x" />
   <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="github" revision="o8x" />
@@ -403,7 +405,6 @@
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/lowpan" name="platform/frameworks/opt/net/lowpan" groups="pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
