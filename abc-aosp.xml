@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/"
+           sync-c="true" />
+  <default revision="refs/tags/android-8.1.0_r22"
+           remote="aosp"
+           sync-j="4" />
+  <remote  name="github"
+           fetch="https://github.com" />
+  <remote name="abc"
+           fetch="https://github.com/ABCrom-Xiaomi/" />
+
+  <project path="build/make" name="abc_build" remote="abc" revision="o2" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="abc_build_soong" remote="abc" revision="o2" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="abc_bionic" groups="pdk" remote="abc" revision="o2" />
+  <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o2" />
+
+  <!-- External -->
+  <project path="external/selinux" name="abc_external_selinux" remote="abc" revision="o2" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o2" />
+  <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
+  <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="o2" />
+  <project path="frameworks/opt/net/wifi" name="abc_frameworks_opt_net_wifi" groups="pdk" remote="abc" revision="o2" />
+  <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" groups="pdk" remote="abc" revision="o2" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="abc_hardware_libhardware" remote="abc" revision="o2" />
+  <project path="hardware/libhardware_legacy" name="abc_hardware_libhardware_legacy" remote="abc" revision="o2" />
+  <project path="hardware/qcom/bt" name="abc_hardware_qcom_bt" remote="abc" revision="o2" />
+  <project path="hardware/qcom/msm8998" name="abc_hardware_qcom_msm8998" remote="abc" revision="o2" />  
+  <project path="hardware/qcom/power" name="abc_hardware_qcom_power" remote="abc" revision="o2" />
+  <project path="hardware/qcom/wlan" name="abc_hardware_qcom_wlan" remote="abc" revision="o2" />
+  <project path="hardware/ril" name="abc_hardware_ril" remote="abc" revision="o2" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/apps/Gallery2" name="abc_packages_apps_Gallery2" remote="abc" revision="o2" />
+  <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="o2" />
+  <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/apps/PackageInstaller" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/apps/Settings" name="abc_packages_apps_Settings" groups="pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/apps/Stk" name="abc_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="abc" revision="o2" />
+
+  <project path="packages/inputmethods/LatinIME" name="abc_packages_inputmethods_LatinIME" groups="pdk-fs" remote="abc" revision="o2" />
+
+  <project path="packages/providers/DownloadProvider" name="abc_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
+  <project path="packages/providers/MediaProvider" name="abc_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
+
+  <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o2" />
+
+  <!-- System -->
+  <project path="system/bt" name="abc_system_bt" remote="abc" revision="o2" />
+  <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" revision="o2" />
+  <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o2" />
+  <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o2" />
+  <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o2" />
+  <project path="system/vold" name="abc_system_vold" remote="abc" revision="o2" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="abc_prebuilts_clang_host_linux-x86" remote="abc" revision="o2" />
+</manifest>

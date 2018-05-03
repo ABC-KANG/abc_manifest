@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+  <remote name="abc"
+           fetch="https://github.com/ABCrom-Xiaomi/" />
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="abc_device_qcom_sepolicy" groups="pdk" remote="abc" revision="o2" />
+
+  <!-- External -->
+  <project path="external/ant-wireless/antradio-library" name="abc_external_ant-wireless_antradio-library" remote="abc" revision="o2" />
+  <project path="external/tinycompress" name="abc_external_tinycompress" remote="abc" revision="o2" />
+
+  <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="abc_vendor_codeaurora_telephony" remote="abc" revision="o2" />
+  <project path="vendor/qcom/opensource/dataservices" name="abc_vendor_qcom_opensource_dataservices" remote="abc" revision="o2" />
+  <project path="vendor/qcom/opensource/fm" name="abc_vendor_qcom_opensource_fm" remote="abc" revision="o2" />
+  <project path="vendor/qcom/opensource/interfaces" name="abc_vendor_qcom_opensource_interfaces" remote="abc" revision="o2" />
+  <project path="vendor/qcom/opensource/softap" name="abc_vendor_qcom_opensource_softap" remote="abc" revision="o2" />
+</manifest>
