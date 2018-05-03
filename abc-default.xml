@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+
+  <!-- Include forked AOSP -->
+  <include name="abc-aosp.xml" />
+
+  <!-- Include forked CAF -->
+  <include name="abc-caf.xml" />
+
+  <!-- Includes from another repos -->
+  <include name="abc-ext.xml" />
+
+  <!-- ABC ROM Projects -->
+  <project path="manifest" name="abc_manifest" remote="abc" revision="o2" />
+
+  <!-- Scripts -->
+  <project path="scripts" name="scripts" remote="abc" revision="o2" />
+
+  <!-- External -->
+  <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o2" />
+  <project path="external/exfat" name="abc_external_exfat" remote="abc" revision="o2" />
+  <project path="external/fuse" name="abc_external_fuse" remote="abc" revision="o2" />
+  <project path="external/ntfs-3g" name="abc_external_ntfs-3g" remote="abc" revision="o2" />
+
+  <!-- Packages -->
+  <project path="packages/apps/AbcOTA" name="abc_packages_apps_AbcOTA" remote="abc" revision="o2" />
+  <project path="packages/apps/AbcSettings" name="abc_packages_apps_AbcSettings" remote="abc" revision="o2" />
+  <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o2" />
+  <project path="packages/apps/SlimRecents" name="abc_packages_apps_SlimRecents" remote="abc" revision="o2" />
+  <project path="packages/apps/Snap" name="abc_packages_apps_Snap" groups="pdk-fs" remote="abc" revision="o2" />
+
+  <!-- Vendor -->
+  <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="o2" />
+</manifest>
