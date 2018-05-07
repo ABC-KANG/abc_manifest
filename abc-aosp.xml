@@ -11,7 +11,7 @@
   <remote  name="github"
            fetch="https://github.com" />
   <remote name="abc"
-           fetch="https://github.com/ABCrom-Xiaomi/" />
+           fetch="https://github.com/ABCrom-Legacy/" />
 
   <project path="build/make" name="abc_build" remote="abc" revision="o2" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />

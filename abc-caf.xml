@@ -4,7 +4,7 @@
   <remote  name="github"
            fetch="https://github.com" />
   <remote name="abc"
-           fetch="https://github.com/ABCrom-Xiaomi/" />
+           fetch="https://github.com/ABCrom-Legacy/" />
 
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="abc_device_qcom_sepolicy" groups="pdk" remote="abc" revision="o2" />
