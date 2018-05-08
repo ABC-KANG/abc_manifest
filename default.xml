@@ -4,7 +4,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
            sync-c="true" />
-  <default revision="refs/tags/android-8.1.0_r22"
+  <default revision="refs/tags/android-8.1.0_r28"
            remote="aosp"
            sync-j="4" />
   <project path="build/make" name="platform/build" groups="pdk" >
