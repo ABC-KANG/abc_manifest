@@ -5,6 +5,7 @@
 
   <!-- DU Clang -->
   <project path="external/clang" name="DirtyUnicorns/android_external_clang" remote="github" revision="o8x" />
+  <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="github" revision="o8x" />
 
   <!-- OmniROM DSPManager -->
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-8.1" />

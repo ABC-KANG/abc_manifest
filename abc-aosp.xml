@@ -64,7 +64,5 @@
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o2" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o2" />
   <project path="system/vold" name="abc_system_vold" remote="abc" revision="o2" />
-
-  <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="abc_prebuilts_clang_host_linux-x86" remote="abc" revision="o2" />
+  
 </manifest>
