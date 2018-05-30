@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="abc"
-           fetch="https://github.com/ABCrom-Legacy/" />
+           fetch="https://github.com/ABC-KANG/" />
 
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="abc_device_qcom_sepolicy" groups="pdk" remote="abc" revision="o2" />
