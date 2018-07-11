@@ -10,7 +10,16 @@
   <!-- OmniROM DSPManager -->
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-8.1" />
 
-  <!-- LineageOS NFC stuff -->
+  <!-- LineageOS stuffs -->
+  <!-- ANT -->
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-15.1" />
+  <!-- CAF OSS stuffs -->
+  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-15.1" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-15.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-15.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-15.1" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-15.1" />
+  <!-- NFC-->
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="lineage-15.1" />
@@ -20,5 +29,6 @@
   <project path="vendor/nxp/opensource/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="github" revision="lineage-15.1" />
   <project path="vendor/nxp/opensource/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="github" revision="lineage-15.1" />
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-15.1" />
-
+  <!-- Tinycompress -->
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="github" revision="lineage-15.1" />
 </manifest>
